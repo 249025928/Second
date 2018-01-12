@@ -1,0 +1,16 @@
+重量g变Kg
+def zhongliang_num(C):
+    zhongliang = C / 1000
+    return str(zhongliang) + 'Kg'
+Num = zhongliang_num(35)
+print(Num)
+ 
+直角三角形最长边
+def pythagorean_theorem(a,b):
+    return 'The right tring third side\'s length is {}'.format((a**2 + b**2)**(1/2))
+print(pythagorean_theorem(3,4))
+
+
+
+Winding_Path的博客
+http://blog.sina.com.cn/u/2399291280 
